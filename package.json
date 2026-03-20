@@ -1,0 +1,26 @@
+{
+  "name": "nostalgia-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "echo 'no build step needed for static root'",
+    "deploy": "gh-pages -d .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girlpop2006/Nostalgia-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/girlpop2006/Nostalgia-Project/issues"
+  },
+  "homepage": "https://github.com/girlpop2006/Nostalgia-Project#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
